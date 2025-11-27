@@ -157,7 +157,7 @@ async def account_login(bot: Client, m: Message):
             elif 'classplusapp' in url or "testbook.com" in url or "classplusapp.com/drm" in url or "media-cdn.classplusapp.com/drm" in url:
                 headers = {
                     'host': 'api.classplusapp.com',
-                    'x-access-token': f'{working_token}',    
+                    'x-access-token': f'{eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY4NTUxMjQ2LCJvcmdJZCI6Ijg5Njg4NyIsInR5cGUiOjEsIm1vYmlsZSI6IjkxNjM0NTE5NzkxOCIsIm5hbWUiOiJVc2VyIiwiZW1haWwiOiJqYWtoYXIzNjUzNjUrNTVjMkBnbWFpbC5jb20iLCJpc0ZpcnN0TG9naW4iOnRydWUsImRlZmF1bHRMYW5ndWFnZSI6IkVOIiwiY291bnRyeUNvZGUiOiJJTiIsImlzSW50ZXJuYXRpb25hbCI6MCwiaXNEaXkiOnRydWUsImxvZ2luVmlhIjoiT3RwIiwiZmluZ2VycHJpbnRJZCI6IjY3ZTgxZWMxNTJlMDQyNmE5NGIwN2YzOTM2YjliZDJmIiwiaWF0IjoxNzY0MjU4OTczLCJleHAiOjE3NjQ4NjM3NzN9.RDwjabbLoAiOeXaLGtN2BMSsyZh9BjxC-ifnoYx0_-sEAdgjyYKZVbczA4TUcZUe}',    
                     'accept-language': 'EN',
                     'api-version': '18',
                     'app-version': '1.4.73.2',
