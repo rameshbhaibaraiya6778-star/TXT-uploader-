@@ -1,9 +1,0 @@
-
-
-    buildCommand: ""        # Dockerfile already handles build
-    startCommand: "python3 main.py"
-
-    dockerfilePath: "./Dockerfile"
-
-    autoDeploy: true
-    branch: main
