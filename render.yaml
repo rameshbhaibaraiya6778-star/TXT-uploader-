@@ -1,8 +1,4 @@
-services:
-  - type: worker
-    name: my-worker
-    plan: free
-    env: docker
+
 
     buildCommand: ""        # Dockerfile already handles build
     startCommand: "python3 main.py"
