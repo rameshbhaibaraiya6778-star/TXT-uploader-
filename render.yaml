@@ -1,5 +1,13 @@
-build:
-  docker:
-    worker: Dockerfile
-run:
-  worker: python3 main.py
+services:
+  - type: worker
+    name: my-worker
+    plan: free
+    env: docker
+
+    buildCommand: ""        # Dockerfile already handles build
+    startCommand: "python3 main.py"
+
+    dockerfilePath: "./Dockerfile"
+
+    autoDeploy: true
+    branch: main
